@@ -66,22 +66,22 @@ For any errors, [report bugs on Github](https://github.com/chanzuckerberg/cellxg
 
 ### Contributing
 
-We warmly welcome contributions from the community! Please see our [contributing guide](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/contribute.md) and don't hesitate to open an issue or send a pull request to improve cellxgene Desktop. Please see the [dev_docs](https://github.com/chanzuckerberg/cellxgene/tree/main/dev_docs) for pull request suggestions, unit test details, local documentation preview, and other development specifics. 
+We warmly welcome contributions from the community! Please see our [contributing guide](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/contribute.md) and don't hesitate to open an issue or send a pull request to improve cellxgene Desktop. Please see the [dev_docs](https://github.com/chanzuckerberg/cellxgene/tree/main/dev_docs) for pull request suggestions, unit test details, local documentation preview, and other development specifics.
 
 This project adheres to the Contributor Covenant [code of conduct](https://github.com/chanzuckerberg/.github/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to opensource@chanzuckerberg.com.
 
 ### Reuse
 
-This project was started with the sole goal of empowering the scientific community to explore and understand their data. 
-As such, we encourage other scientific tool builders in academia or industry to adopt the patterns, tools, and code from 
+This project was started with the sole goal of empowering the scientific community to explore and understand their data.
+As such, we encourage other scientific tool builders in academia or industry to adopt the patterns, tools, and code from
 this project. All code is freely available for reuse under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-Before extending cellxgene, we encourage you to reach out to us with ideas or questions. It might be possible that an 
-extension could be directly contributed, which would make it available for a wider audience, or that it's on our 
-[roadmap](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/roadmap.md) and under active development. 
+Before extending cellxgene, we encourage you to reach out to us with ideas or questions. It might be possible that an
+extension could be directly contributed, which would make it available for a wider audience, or that it's on our
+[roadmap](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/roadmap.md) and under active development.
 
-See the [cellxgene extensions](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/community-extensions.md) section of our documentation for examples of community use and cellxgene extensions. 
+See the [cellxgene extensions](https://github.com/chanzuckerberg/cellxgene-documentation/blob/main/community-extensions.md) section of our documentation for examples of community use and cellxgene extensions.
 
 ### Security
 
@@ -96,3 +96,11 @@ We were inspired by Mike Bostock and the [crossfilter](https://github.com/crossf
 We have been working closely with the [scanpy](https://github.com/theislab/scanpy) team to integrate with their awesome analysis tools. Special thanks to Alex Wolf, Fabian Theis, and the rest of the team for their help during development and for providing an example dataset.
 
 We are eager to explore integrations with other computational backends such as [Seurat](https://github.com/satijalab/seurat) or [Bioconductor](https://github.com/Bioconductor)
+
+# Extra:
+brew install llvm@11 hdf5 chromium postgresql
+Open Chromium
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium
+pip install -i https://pypi.anaconda.org/numba/label/wheels_experimental_m1/simple numba
+LLVM_CONFIG=/opt/homebrew/Cellar/llvm@11/11.1.0_4/bin/llvm-config HDF5_DIR=$(brew --prefix hdf5) make install-dev
