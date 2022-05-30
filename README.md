@@ -98,9 +98,14 @@ We have been working closely with the [scanpy](https://github.com/theislab/scanp
 We are eager to explore integrations with other computational backends such as [Seurat](https://github.com/satijalab/seurat) or [Bioconductor](https://github.com/Bioconductor)
 
 # Extra:
-brew install llvm@11 hdf5 chromium postgresql
+CMake for compiling louvain
+hdf5 library for compiling hdf5 (I think)
+
+```{sh}
+brew install llvm@11 hdf5 chromium postgresql cmake
 Open Chromium
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 export PUPPETEER_EXECUTABLE_PATH=`which chromium
-pip install -i https://pypi.anaconda.org/numba/label/wheels_experimental_m1/simple numba
+# pip install -i https://pypi.anaconda.org/numba/label/wheels_experimental_m1/simple numba
 LLVM_CONFIG=/opt/homebrew/Cellar/llvm@11/11.1.0_4/bin/llvm-config HDF5_DIR=$(brew --prefix hdf5) make install-dev
+```
